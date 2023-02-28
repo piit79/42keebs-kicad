@@ -38,7 +38,12 @@
   (pad "2" smd rect (at 2.75 0.7) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7cbe447b-4d45-475a-8c54-a0bfac0f0cd9))
   (pad "3" smd rect (at -2.75 0.7) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d577d9f-7ad9-42a5-9861-f5d72bb99797))
   (pad "4" smd rect (at -2.75 -0.7) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 31e84e03-355a-4647-a494-2f080e9ad108))
-  (model "${KIPRJMOD}/../kbd/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+  (model "${KIPRJMOD}/../42keebs-kicad/3dmodels/YS-SK6812MINI-E.step"
+    (offset (xyz 0 0 0.15))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 180))
+  )
+  (model "${KIPRJMOD}/42keebs-kicad/3dmodels/YS-SK6812MINI-E.step"
     (offset (xyz 0 0 0.15))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 180))
