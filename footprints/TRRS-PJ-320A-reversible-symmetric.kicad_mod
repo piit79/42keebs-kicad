@@ -1,4 +1,4 @@
-(footprint "TRRS-PJ-320A-dual-no-sleeve" (version 20221018) (generator pcbnew)
+(footprint "TRRS-PJ-320A-reversible-symmetric" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (property "Sheetfile" "cantor-pro-frood-pcb.kicad_sch")
   (property "Sheetname" "")
@@ -39,16 +39,48 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp b3e728f3-9dcb-40dd-835f-511b327d0028))
   (fp_line (start 3.05 12.1) (end -3.05 12.1)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 90996ead-5a39-4b54-9453-bb1c22e99b80))
+  (fp_circle (center -2.3 11.3) (end -2.3 10.3)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.6") (tstamp 7457a5ea-e182-4a66-a5d9-6f8e4a9213b1))
+  (fp_circle (center 2.3 3.2) (end 2.3 2.2)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.6") (tstamp 35e39db1-8077-4bbe-84be-126b007a904a))
+  (fp_circle (center 2.3 6.2) (end 2.3 5.2)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.6") (tstamp e65e909e-8209-4fed-b05d-73db4c233294))
+  (fp_circle (center 2.3 10.2) (end 2.3 9.2)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.6") (tstamp ade3073c-e7d0-4007-8eaa-3e5c473983ca))
+  (fp_circle (center -2.3 3.2) (end -2.3 2.2)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.7") (tstamp 695f2eb7-535d-4d80-9fa0-373803f8f194))
+  (fp_circle (center -2.3 6.2) (end -2.3 5.2)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.7") (tstamp 04779cde-6ea5-46bc-96c8-4f96ecfe25db))
+  (fp_circle (center -2.3 10.2) (end -2.3 9.2)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.7") (tstamp edb09156-26b3-4bf8-9ebb-ecd379af6619))
+  (fp_circle (center 2.3 11.3) (end 2.3 10.3)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "User.7") (tstamp 0e06238c-9db2-4ff0-8ec9-84f091483c49))
   (pad "" np_thru_hole circle (at 0 1.6) (size 0.8 0.8) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 673b1cdc-7a6c-4e30-a37b-4bdbb4882511))
   (pad "" np_thru_hole circle (at 0 8.6) (size 0.8 0.8) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp ab2cff76-d18c-4cb8-ac11-199552f01994))
+  (pad "1" thru_hole oval (at -2.3 11.3) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 8ada8be8-cc94-4c5e-9661-464950b01893))
+  (pad "1" thru_hole oval (at 2.3 11.3) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 75e25741-69f7-4b15-aaa4-e8b5c17bd0b8))
   (pad "2" thru_hole oval (at -2.3 10.2) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 9d2f0722-32ac-4b36-b2d4-29a192bf588c))
-  (pad "2" thru_hole oval (at -2.3 11.3) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 8ada8be8-cc94-4c5e-9661-464950b01893))
   (pad "2" thru_hole oval (at 2.3 10.2) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp d0fdf6bf-1a12-4df6-9838-01f1c9e8d701))
-  (pad "2" thru_hole oval (at 2.3 11.3) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 75e25741-69f7-4b15-aaa4-e8b5c17bd0b8))
   (pad "3" thru_hole oval (at -2.3 6.2) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 6ddac87d-3017-4651-81be-99b396b06299))
   (pad "3" thru_hole oval (at 2.3 6.2) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 96f64f47-2008-4ebc-8dde-89fc17e2aefc))
   (pad "4" thru_hole oval (at -2.3 3.2) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 2a8082a0-b101-4090-9be9-65318fce6d71))
   (pad "4" thru_hole oval (at 2.3 3.2) (size 1.4 2) (drill oval 0.7 1.3) (layers "*.Cu" "*.Mask") (tstamp 0dc2ce02-7f59-4e2c-bd2f-89b6bcb91127))
+  (group "" (id a54d0d0a-7b1a-4c78-80a2-a8396609e0e0)
+    (members
+      35e39db1-8077-4bbe-84be-126b007a904a
+      7457a5ea-e182-4a66-a5d9-6f8e4a9213b1
+      ade3073c-e7d0-4007-8eaa-3e5c473983ca
+      e65e909e-8209-4fed-b05d-73db4c233294
+    )
+  )
+  (group "" (id 9b1c537e-b20b-49d5-a797-f84f799e5d0f)
+    (members
+      04779cde-6ea5-46bc-96c8-4f96ecfe25db
+      0e06238c-9db2-4ff0-8ec9-84f091483c49
+      695f2eb7-535d-4d80-9fa0-373803f8f194
+      edb09156-26b3-4bf8-9ebb-ecd379af6619
+    )
+  )
   (model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/PJ-320A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
