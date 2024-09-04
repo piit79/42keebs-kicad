@@ -1,0 +1,105 @@
+(footprint "TACT_SWITCH_TVBP06_single"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "RSW1"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba5365fd-0868-45e4-9325-3956deea8a60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_RST"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0eec48-e879-4c0f-80b1-45632eac2590")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TACT_SWITCH_TVBP06_single"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db98180a-86ee-4d43-bfc0-06aadadd2ed1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20c52604-215f-460c-9c2e-bb68224497c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47b2fb8e-47d1-4916-a79a-6fec179cb7f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.5 -1.75)
+		(end 4.5 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d73492f1-2aed-43db-850d-282ae85ba55a")
+	)
+	(fp_text user "RESET"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "6ef2b357-dfff-4e53-a916-134a76c20463")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f53512cd-e46e-4ab8-8aa7-24543476e65e")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83bf5c32-5262-4a58-ae51-52254f55ea8b")
+	)
+)
