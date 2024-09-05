@@ -2999,7 +2999,7 @@
 				)
 			)
 		)
-		(property "Value" "Frood+nice!nano"
+		(property "Value" "Frood/nice!nano"
 			(at 0 2.54 90)
 			(effects
 				(font
@@ -3007,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "42keebs:Frood_PinHeader_2x13+5_P2.54mm_Labels_Top"
+		(property "Footprint" "42keebs:Frood-nice_nano_PinHeader_2x13+5_P2.54mm_upside_down"
 			(at 0.254 -29.972 0)
 			(effects
 				(font
