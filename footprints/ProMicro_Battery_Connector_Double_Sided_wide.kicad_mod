@@ -1,0 +1,184 @@
+(footprint "ProMicro_Battery_Connector_Double_Sided_wide"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9f449d09-37db-4679-b4e5-533258de06b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ProMicro_Battery_Connector_Double_Sided_wide"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "38fef59b-958b-45b7-8820-2d51d2463f7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c3ccdf0-48ce-413f-980f-e378ae73f7af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4096c5ea-5ddf-4a8d-8fe0-9cec6abb7cdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "479253c7-b70c-4c6d-a0ba-512db9832b96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.62 -1)
+		(end -6.62 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "edab34d8-9ffd-465c-ba09-6b6da34771c3")
+	)
+	(fp_rect
+		(start 6.62 -1)
+		(end 8.62 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "34ebe073-8fd2-4a1c-8a92-2b28f6d7ffde")
+	)
+	(fp_rect
+		(start -8.62 -1)
+		(end -6.62 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f62f1405-2001-43a5-8c39-3a91289f5bf2")
+	)
+	(fp_rect
+		(start 6.62 -1)
+		(end 8.62 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "14b0f3a8-0df0-4d58-836c-b0a8bf34c4ae")
+	)
+	(fp_text user "B+"
+		(at -9.605 0 0)
+		(layer "B.SilkS")
+		(uuid "13a2864c-eed1-431e-b756-6a5b8e207cbc")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "B-"
+		(at 9.605 0 0)
+		(layer "B.SilkS")
+		(uuid "fa7712ed-8a00-4cbb-8f88-7f2c155c7731")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "B+"
+		(at -9.605 0 0)
+		(layer "F.SilkS")
+		(uuid "55ab86d9-f7fc-47dd-af84-cf86e5f10e9a")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B-"
+		(at 9.605 0 0)
+		(layer "F.SilkS")
+		(uuid "9b8ec968-9e4f-4894-9631-6eb63eabe132")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "09ceeb43-9fac-40b4-a3bb-4f36cdd20ed2")
+	)
+	(pad "2" thru_hole roundrect
+		(at 7.62 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "2b0a2100-e129-47ab-bd5f-042914e5b9df")
+	)
+)
